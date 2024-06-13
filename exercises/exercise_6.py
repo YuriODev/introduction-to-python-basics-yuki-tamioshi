@@ -1,2 +1,5 @@
-# Exercise 6
-# Your solution comes here
+a = int(input())
+b = int(input())
+remainder = a % b
+divide = (remainder == 0)
+print('yes' if divide else 'no')
